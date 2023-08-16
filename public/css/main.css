@@ -191,48 +191,52 @@ p {
   color: #888;
 }
 
-
 /* Udemy footer styles */
 .udemy-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-logo img {
-    height: 50px;
+  height: 50px;
 }
 
 .footer-links ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .footer-links li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .footer-links a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
-    .udemy-footer {
-        flex-direction: column;
-        text-align: center;
-    }
+  .udemy-footer {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .footer-links ul {
-        margin-top: 10px;
-    }
+  .footer-links ul {
+    margin-top: 10px;
+  }
 
-    .footer-links li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
+  .footer-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.thumbnail iframe {
+  width: 100%;
+  height: auto;
 }
